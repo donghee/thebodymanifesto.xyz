@@ -1,0 +1,9 @@
+baseURL = "http://thebodymanifesto.xyz/"
+languageCode = "en-us"
+title = "When the body becomes Manifesto"
+summaryLength = "10"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

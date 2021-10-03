@@ -1,0 +1,119 @@
+{{ define "main" }}
+
+<style>
+ .overlay {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   transition: opacity 100ms;
+   visibility: visible;
+   opacity: 1;
+ }
+ .overlay:target {
+   visibility: hidden;
+   opacity: 0;
+   display: none;
+ }
+
+ .popup {
+   margin: 20px auto;
+   padding: 20px;
+   background: #fff;
+   border-radius: 5px;
+   /* width: 90%; */
+   position: relative;
+   transition: all 1s ease-in-out;
+   opacity: 1;
+ }
+
+ .popup h2 {
+   margin-top: 0;
+   color: #333;
+   font-family: Tahoma, Arial, sans-serif;
+ }
+ .popup .close {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   transition: all 200ms;
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #FF0000;
+ }
+
+ .popup .close:hover {
+   color: #000000;
+ }
+
+ /* .popup .arko {
+    position: absolute;
+    top: 340px;
+    right: 40px;
+    width: 100px;
+    }
+  */
+</style>
+
+<div id="popup-off" class="block lg:hidden lg:max-w-screen-sm m-auto overlay z-50 close" >
+  <div class="popup h-screen">
+  <a href="#popup-off">
+    <img class="block lg:hidden mt-10 b bt-1" src="/images/mobile-main.png">
+  </a>
+  <a class="close" href="#popup-off">&times;</a>
+  </div>
+</div>
+
+<div class="flex flex-col-reverse lg:flex-row justify-between m-auto">
+  <!-- main -->
+  <div class="flex flex-col w-full lg:w-5/6">
+    <div>
+      <img class="hidden lg:block" src="/images/main.png">
+      <!-- <img class="block lg:hidden mt-10 b bt-1" src="/images/mobile-main.png"> -->
+    </div>
+    <div class="m-4 lg:m-10 flex flex-row ">
+      <img class="h-12" src="/images/arko-red.png">
+    </div>
+  </div>
+  <!-- menu -->
+  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-24">
+	  <div class="ml-4 my-4 lg:mt-10">
+        <a href="/">
+          <img class="hidden lg:block" src="/images/title.png">
+          <img class="block lg:hidden" src="/images/mobile-title.png">
+        </a>
+	  </div>
+	<div class="my-6 ml-4 lg:mt-0 lg:mb-10">
+      <img class="hidden lg:block h-12" src="/images/lang.png">
+      <img class="block lg:hidden h-10" src="/images/mobile-lang.png">
+	</div>
+    <div class="flex flex-col place-items-start mt-4 lg:ml-4 lg:place-items-end">
+      <a href="/information">
+        <img class="hidden lg:block h-6 lg:h-10" src="/images/side-menu-information.png">
+        <img class="block lg:hidden w-full" src="/images/category-information.png">
+      </a>
+      <a href="/artist">
+        <img class="hidden lg:block h-6 lg:h-10" src="/images/side-menu-artist.png">
+        <img class="block lg:hidden w-full" src="/images/category-artist.png">
+      </a>
+      <a href="/talk">
+        <img class="hidden lg:block h-6 lg:h-10" src="/images/side-menu-talk.png">
+        <img class="block lg:hidden w-full" src="/images/category-talk.png">
+      </a>
+      <a href="/archive">
+        <img class="hidden lg:block h-6 lg:h-10" src="/images/side-menu-archive.png">
+        <img class="block lg:hidden w-full" src="/images/category-archive.png">
+      </a>
+      <a href="/news">
+        <img class="hidden lg:block h-6 lg:h-10" src="/images/side-menu-news.png">
+        <img class="block lg:hidden w-full" src="/images/category-news.png">
+      </a>
+	</div>
+  </div>
+</div>
+
+<script type="text/javascript">
+</script>
+{{ end }}

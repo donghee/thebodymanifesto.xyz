@@ -1,0 +1,34 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- favicons -->
+  <!-- <link rel="stylesheet" href="/css/tailwind-without-preflight.css"> -->
+  <link rel="stylesheet" href="/css/tailwind.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  <style>
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+    padding-left: calc(1.4em + .7vw);
+    list-style-image: url(https://www.smashingmagazine.com/images/bullet.svg);
+}
+
+ul > li {
+    margin-bottom: .35em;
+    padding-left: .25em;
+}
+  </style>
+  <!-- opengraph -->
+
+  {{ $title := print .Site.Title " | " .Title }}
+  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <title>{{ $title }}</title>
+
+</head>
