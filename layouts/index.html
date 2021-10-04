@@ -35,8 +35,8 @@
  }
  .popup .close {
    position: absolute;
-   top: 20px;
-   right: 20px;
+   top: 30px;
+   right: 40px;
    transition: all 200ms;
    font-size: 30px;
    font-weight: bold;
@@ -59,8 +59,10 @@
 
 <div id="popup-off" class="block lg:hidden lg:max-w-screen-sm m-auto overlay z-50 close" >
   <div class="popup h-screen">
-  <a href="#popup-off">
-    <img class="block lg:hidden mt-10 b bt-1" src="/images/mobile-main.png">
+    <a href="#popup-off">
+      <div class="block lg:hidden mt-0 p-2 b border-2" style="border-color: #ff0000">
+        <img src="/images/mobile-main.png">
+      </div>
   </a>
   <a class="close" href="#popup-off">&times;</a>
   </div>
@@ -78,7 +80,7 @@
     </div>
   </div>
   <!-- menu -->
-  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-24">
+  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-16">
 	  <div class="ml-4 my-4 lg:mt-10">
         <a href="/">
           <img class="hidden lg:block" src="/images/title.png">

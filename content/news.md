@@ -5,6 +5,6 @@ draft: false
 ---
 
 <div class="h-5/6">
-    <iframe class="w-4/6 m-auto" height=600 src="https://www.instagram.com/p/CRnYKlirccT/embed" frameborder="0">
+    <iframe class="w-4/6 m-auto" height=660 src="https://www.instagram.com/p/CRnYKlirccT/embed" frameborder="0">
     </iframe>
 </div>

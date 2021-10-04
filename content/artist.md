@@ -4,7 +4,7 @@ date: 2021-10-01T01:30:57+09:00
 draft: false
 ---
 
-# 참여작가 { .text-4xl .mb-8 }
+# 참여작가 { .text-2xl .mb-4 }
 
  - <a class="underline" href="#1">강라겸</a>
  - <a class="underline" href="#2">이길보라</a>
@@ -19,7 +19,7 @@ draft: false
 
 <span id="1"></span>
 
-## 강라겸 { .text-2xl .mb-8 }
+## 강라겸 { .text-xl .mb-4 }
 
 (이미지삽입)
 <br/>
@@ -62,7 +62,7 @@ https://ragyeom.com  / kang.ragyeom@gmail.com
 
 <span id="2"></span>
 
-## 이길보라 { .text-2xl .mb-4 }
+## 이길보라 { .text-xl .mb-4 }
 
 이미지삽입
 <br/>
@@ -85,7 +85,7 @@ https://ragyeom.com  / kang.ragyeom@gmail.com
 
 <span id="3"></span>
 
-## 전규리 { .text-2xl .mb-8}
+## 전규리 { .text-xl .mb-4}
 
  - \<다신, 태어나, 다시\>, 2020 단채널 영상, 컬러 흑백, 12분 38초
  - \<산증인\>, 2021 단채널 영상, 컬러 흑백,《몸이 선언이 될 때》 제작지원 작품
@@ -103,6 +103,8 @@ https://ragyeom.com  / kang.ragyeom@gmail.com
 
 kyurijeon.com / qrijeon@gmail.com / @kyuri.jeon
 
+<br/>
+
 전규리(b.1990)는 뉴욕과 서울을 기반으로 활동하는 작가다. 한국예술종합학교와 서울대학교에서 미술을 전공했으며, 펜실베이니아대학교(University of Pennsylvania)에서 순수 미술 석사 학위를 받았다.  갈등과 협상의 장소로서 여성의 몸에 새겨진 언어, 젠더 및 정체성에 관심이 있다. 전규리의 작업은 미국의 뮈터 의학박물관(Mütter Museum) 및 필라델피아 현대 미술관(The Institute of Contemporary Art) 등에서 전시되었다. 또한, 영국 아티스트 무빙 이미지 페스티벌(Artists’ Moving Image Festival), 인도네시아 페스티벌 필름 도큐멘타 (Festival Film Dokumenter), 대만 여성국제영화제(Women Make Waves International Film Festival), 한국의 DMZ국제다큐멘터리영화제 등 다수의 영화제에서 작품을 상영했다. 2020년 서울국제여성영화제에서 아시안 단편경선 부문에서 우수상을 수상하였고, 2021년 서울문화재단 창작지원 작가로 선정 되었다.
 
 
@@ -115,7 +117,7 @@ kyurijeon.com / qrijeon@gmail.com / @kyuri.jeon
 
 <span id="4"></span>
 
-## 성적권리와 재생산정의를 위한 센터 셰어 SHARE  { .text-2xl .mb-8}
+## 성적권리와 재생산정의를 위한 센터 셰어 SHARE  { .text-xl .mb-4}
 
  - \<울퉁불퉁한 연대기: 터져나온 저항, 몸의 발화들\>, 2021 현수막, 스티커, 가변설치, 가변크기
 《몸이 선언이 될 때》 제작지원 작품
@@ -132,9 +134,14 @@ kyurijeon.com / qrijeon@gmail.com / @kyuri.jeon
 
 **srhr.kr**
 
+<br/>
+
 셰어는 2015년 한 해 동안 진행된 장애여성공감의 “장애/여성 재생산권 새로운 패러다임 만들기” 사업을 통해서 만난 활동가, 연구자, 변호사, 의사들이 2016년에 결성한 “성과 재생산 포럼”을 전신으로 하여 2019년 10월에 설립되었다. 성별, 연령, 장애, 인종, 국적, 성적지향·성별정체성 등에 관계 없이 모두에게 성 건강 전문 상담과 의료지원, 포괄적 성교육 접근성을 보장하고, 이를 위한 법과 정책을 연구하는 통합 센터를 지향한다. 누구도 차별 받거나 배제되지 않고, 자유롭고 건강하게 성과 재생산의 권리를 누리며 충분한 정보와 평등한 자원을 바탕으로 서로의 역량을 키워나가는 사회를 꿈꾼다.
 
 자세한 구성원 소개 https://srhr.kr/people (자세한 구성원 소개 안에 하이퍼링크로)
+
+<br/>
+<br/>
 
 전시 참여 구성원
 
