@@ -1,47 +1,52 @@
 {{ define "main" }}
 <div class="flex flex-col-reverse lg:flex-row justify-between m-auto">
   <!-- main -->
-  <div class="w-full lg:w-5/6">
+  <div class="w-full lg:w-5/6 lg:mt-24">
       <div class="max-w-screen-md m-auto">
-        <img class="mt-10 lg:mt-20" src="/images/{{ with .Title }}{{ . | safeHTML }}{{ end }}-top-title.png">
+        <img class="mt-10 lg:mt-20 lg:w-1/2" src="/images/{{ with .Title }}{{ . | safeHTML }}{{ end }}-top-title.png">
         <!--
              <h1>
              {{ with .Title }}{{ . | safeHTML }}{{ end }}
              </h1>
         -->
-        <div class="m-4 my-12 text-base leading-9">
+        <div class="m-6 mt-16 text-base leading-6">
           {{ .Content | safeHTML }}
         </div>
-        <img src="/images/information-bottom-bg.png">
+        <!-- <img src="/images/information-bottom-bg.png"> -->
       </div>
   </div>
   <!-- menu -->
-  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-16 pb-8 border-black border-b-2 lg:border-b-0 ">
-     <div class="ml-4 my-4 lg:mt-10">
+  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-4 pb-8">
+	<div class="lg:mt-10">
       <a href="/">
-        <img class="hidden lg:block" src="/images/title-second.png">
-        <img class="block lg:hidden" src="/images/mobile-title.png">
+        <img class="my-2 hidden lg:block" src="/images/title-second.png">
+        <img class="mx-6 mt-4 block lg:hidden" src="/images/mobile-title.png">
       </a>
-    </div>
-	<div class="my-6 ml-4 lg:mt-0 lg:mb-10">
-      <img class="hidden lg:block h-12" src="/images/lang.png">
-      <img class="block lg:hidden h-10" src="/images/mobile-lang.png">
 	</div>
-    <div class="flex flex-col place-items-start ml-4 lg:place-items-end">
+	<div class="my-6 ml-4 lg:mt-0 lg:mb-10">
+      <img class="hidden lg:block h-10 mr-10" src="/images/lang.png">
+      <img class="block lg:hidden h-12" src="/images/mobile-lang.png">
+	</div>
+    <div class="flex flex-col place-items-start ml-6 lg:ml-2 lg:place-items-end">
       <a href="/information">
-        <img class="h-6 lg:h-10" src="/images/side-menu-information.png">
+        <img class="hidden lg:block h-8" src="/images/side-menu-information-w-full.png"> <!-- desktop side menu -->
+        <img class="block lg:hidden h-8" src="/images/side-menu-information.png"> <!-- mobile top menu -->
       </a>
       <a href="/artist">
-        <img class="h-6 lg:h-10" src="/images/side-menu-artist.png">
+        <img class="hidden lg:block h-8" src="/images/side-menu-artist-w-full.png">
+        <img class="block lg:hidden h-8" src="/images/side-menu-artist.png">
       </a>
       <a href="/talk">
-        <img class="h-6 lg:h-10" src="/images/side-menu-talk.png">
+        <img class="hidden lg:block h-8" src="/images/side-menu-talk-w-full.png">
+        <img class="block lg:hidden h-8" src="/images/side-menu-talk.png">
       </a>
       <a href="/archive">
-        <img class="h-6 lg:h-10" src="/images/side-menu-archive.png">
+        <img class="hidden lg:block h-8" src="/images/side-menu-archive-w-full.png">
+        <img class="block lg:hidden h-8" src="/images/side-menu-archive.png">
       </a>
       <a href="/news">
-        <img class="h-6 lg:h-10" src="/images/side-menu-news.png">
+        <img class="hidden lg:block h-8" src="/images/side-menu-news-w-full.png">
+        <img class="block lg:hidden h-8" src="/images/side-menu-news.png">
       </a>
 	</div>
   </div>
