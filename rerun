@@ -2,5 +2,5 @@
 
 while true; do
   inotifywait -e modify,create,delete -r . --exclude public && \
-  hugo
+  hugo --ignoreCache
 done
