@@ -1,7 +1,19 @@
-baseURL = "http://thebodymanifesto.xyz/"
-languageCode = "en-us"
 title = "When the body becomes Manifesto"
 summaryLength = "10"
+
+defaultContentLanguage = 'ko'
+hasCJKLanguage = true
+
+[languages]
+  [languages.ko]
+  baseURL = 'http://thebodymanifesto.xyz/ko'
+  languageName = "한글"
+  weight = 2
+
+  [languages.en]
+  baseURL = 'http://thebodymanifesto.xyz/en'
+  languageName = "English"
+  weight = 1
 
 [markup]
   [markup.goldmark]

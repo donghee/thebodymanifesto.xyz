@@ -50,6 +50,7 @@
 
 </style>
 
+<!-- mobile popup-->
 <div id="popup-off" class="block lg:hidden lg:max-w-screen-sm m-auto overlay z-50 close" >
   <div class="popup h-screen">
     <a href="#popup-off">
@@ -57,7 +58,6 @@
         <img src="/images/mobile-main.png">
       </div>
   </a>
-  <!-- <a class="close" href="#popup-off">&times;</a> -->
   </div>
 </div>
 
@@ -66,7 +66,6 @@
   <div class="flex flex-col w-full lg:w-5/6">
     <div>
       <img class="hidden lg:block" src="/images/main.png">
-      <!-- <img class="block lg:hidden mt-10 b bt-1" src="/images/mobile-main.png"> -->
     </div>
     <div class="m-4 lg:m-10 flex flex-row">
       <img class="h-10 lg:h-12 pr-4" src="/images/arko-red.png">
@@ -83,38 +82,13 @@
   </div>
   <!-- menu -->
   <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-4">
-	<div class="lg:mt-10">
-      <a href="/">
-        <img class="my-2 hidden lg:block" src="/images/title.png">
-        <img class="mx-6 mt-4 block lg:hidden" src="/images/mobile-title.png">
-      </a>
-	</div>
-	<div class="my-6 ml-4 lg:mt-0 lg:mb-10">
-      <img class="hidden lg:block h-10 mr-10" src="/images/lang.png">
-      <img class="block lg:hidden h-12" src="/images/mobile-lang.png">
-	</div>
-    <div class="flex flex-col place-items-start mt-4 lg:ml-4 lg:place-items-end">
-      <a href="/information">
-        <img class="hidden lg:block h-8" src="/images/side-menu-information-w-full.png">
-        <img class="block lg:hidden w-full" src="/images/category-information.png">
-      </a>
-      <a href="/artist">
-        <img class="hidden lg:block h-8" src="/images/side-menu-artist-w-full.png">
-        <img class="block lg:hidden w-full" src="/images/category-artist.png">
-      </a>
-      <a href="/talk">
-        <img class="hidden lg:block h-8" src="/images/side-menu-talk-w-full.png">
-        <img class="block lg:hidden w-full" src="/images/category-talk.png">
-      </a>
-      <a href="/archive">
-        <img class="hidden lg:block h-8" src="/images/side-menu-archive-w-full.png">
-        <img class="block lg:hidden w-full" src="/images/category-archive.png">
-      </a>
-      <a href="/news">
-        <img class="hidden lg:block h-8" src="/images/side-menu-news-w-full.png">
-        <img class="block lg:hidden w-full" src="/images/category-news.png">
-      </a>
-	</div>
+    <div class="lg:mt-10">
+        <a href="/{{ .Language.Lang }}">
+          <img class="my-2 hidden lg:block" src="/images/title.png">
+          <img class="mx-6 mt-4 block lg:hidden" src="/images/mobile-title.png">
+        </a>
+    </div>
+    {{- partial "nav.html" . -}}
   </div>
 </div>
 

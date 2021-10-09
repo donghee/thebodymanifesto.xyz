@@ -5,4 +5,9 @@ draft: false
 translationKey: "archive"
 ---
 
-아키아브
+{{% class font-elena leading-8 %}}
+
+archive
+
+
+{{% /class %}}

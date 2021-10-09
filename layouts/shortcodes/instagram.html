@@ -4,7 +4,7 @@
 {{ $item := . }}
 <div>
   <h2 class="text-xl mb-2">
-    {{ $item.timestamp }}
+    {{ replace $item.timestamp "T" " " }}
   </h2>
   <a href="{{ $item.permalink | absURL }}">
     {{ if eq ($item.media_type | string) "VIDEO"  }} <video src="{{ $item.media_url |absURL}}"/> {{ else }} <img src="{{ $item.media_url | absURL }}"/> {{ end }}

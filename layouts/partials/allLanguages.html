@@ -1,0 +1,14 @@
+<div class="hidden lg:flex h-10 mr-10">
+    {{ range $.Site.Home.AllTranslations.Reverse }}
+    <a href="{{ .Permalink }}{{ .Param "title" }}">
+    <img class="h-10" src="/{{ .Language.Lang }}/images/lang-{{ .Language.Lang }}.png">
+    </a>
+    {{ end }}
+</div>
+<div class="flex lg:hidden h-12">
+    {{ range $.Site.Home.AllTranslations.Reverse }}
+    <a href="{{ .Permalink }}">
+    <img src="/{{ .Language.Lang }}/images/mobile-lang-{{ .Language.Lang }}.png">
+    </a>
+    {{ end }}
+</div>
