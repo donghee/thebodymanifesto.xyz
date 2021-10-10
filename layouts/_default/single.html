@@ -16,6 +16,27 @@
           <img class="my-2 hidden lg:block" src="/images/title-second.png">
           <img class="mx-6 mt-4 block lg:hidden" src="/images/mobile-title.png">
         </a>
+    </div> 
+
+<!-- lang -->
+<div class="my-6 ml-4 lg:mt-0 lg:mb-10">
+  {{ $p := .Title }}
+
+<div class="hidden lg:flex h-10 mr-10">
+    {{ range $.Site.Home.AllTranslations.Reverse }}
+    <a href="{{ .Permalink }}{{ $p }}">
+    <img class="h-10" src="/{{ .Language.Lang }}/images/lang-{{ .Language.Lang }}.png">
+    </a>
+    {{ end }}
+</div>
+<div class="flex lg:hidden h-12">
+    {{ range $.Site.Home.AllTranslations.Reverse }}
+    <a href="{{ .Permalink }}{{ $p }}">
+    <img src="/{{ .Language.Lang }}/images/mobile-lang-{{ .Language.Lang }}.png">
+    </a>
+    {{ end }}
+</div>
+
     </div>
     {{- partial "nav.html" . -}}
   </div>

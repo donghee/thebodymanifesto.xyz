@@ -1,46 +1,49 @@
 <!-- language-->
+<!--
 <div class="my-6 ml-4 lg:mt-0 lg:mb-10">
     {{- partial "allLanguages.html" . -}}
 </div>
-<div class="flex flex-col mt-4 lg:ml-4 lg:place-items-end">
+-->
+
+<div class="flex flex-col mt-4 lg:ml-4 lg:mr-2 lg:place-items-end">
   <a href="/{{ .Language.Lang }}/information">
-    <img alt="information" class="hidden lg:block h-8" src="/images/side-menu-information-w-full.png">
+    <img alt="information" class="hidden lg:block h-8" src="/{{ .Language.Lang }}/images/side-menu-information-w-full.png">
     {{ if .IsHome }}
-    <img alt="information" class="block lg:hidden w-full" src="/images/category-information.png">
+    <img alt="information" class="block lg:hidden w-full" src="/{{ .Language.Lang }}/images/category-information.png">
     {{ else }}
-    <img alt="information" class="block lg:hidden h-8 ml-4" src="/images/side-menu-information.png">
+    <img alt="information" class="block lg:hidden h-8 ml-4" src="/{{ .Language.Lang }}/images/side-menu-information.png">
     {{ end }}
   </a>
   <a href="/{{ .Language.Lang }}/artist">
-    <img alt="artist" class="hidden lg:block h-8" src="/images/side-menu-artist-w-full.png">
+    <img alt="artist" class="hidden lg:block h-8" src="/{{ .Language.Lang }}/images/side-menu-artist-w-full.png">
     {{ if .IsHome }}
-    <img alt="artist" class="block lg:hidden w-full" src="/images/category-artist.png">
+    <img alt="artist" class="block lg:hidden w-full" src="/{{ .Language.Lang }}/images/category-artist.png">
     {{ else }}
-    <img alt="artist" class="block lg:hidden h-8 ml-4" src="/images/side-menu-artist.png">
+    <img alt="artist" class="block lg:hidden h-8 ml-4" src="/{{ .Language.Lang }}/images/side-menu-artist.png">
     {{ end }}  
   </a>
   <a href="/{{ .Language.Lang }}/talk">
-    <img alt="talk" class="hidden lg:block h-8" src="/images/side-menu-talk-w-full.png">
+    <img alt="talk" class="hidden lg:block h-8" src="/{{ .Language.Lang }}/images/side-menu-talk-w-full.png">
     {{ if .IsHome }}    
-    <img alt="talk" class="block lg:hidden w-full" src="/images/category-talk.png">
+    <img alt="talk" class="block lg:hidden w-full" src="/{{ .Language.Lang }}/images/category-talk.png">
     {{ else }}
-    <img alt="talk" class="block lg:hidden h-8 ml-4" src="/images/side-menu-talk.png">
+    <img alt="talk" class="block lg:hidden h-8 ml-4" src="/{{ .Language.Lang }}/images/side-menu-talk.png">
     {{ end }} 
   </a>
   <a href="/{{ .Language.Lang }}/archive">
-    <img alt="archive" class="hidden lg:block h-8" src="/images/side-menu-archive-w-full.png">
+    <img alt="archive" class="hidden lg:block h-8" src="/{{ .Language.Lang }}/images/side-menu-archive-w-full.png">
     {{ if .IsHome }}
-    <img alt="archive" class="block lg:hidden w-full" src="/images/category-archive.png">
+    <img alt="archive" class="block lg:hidden w-full" src="/{{ .Language.Lang }}/images/category-archive.png">
     {{ else }}
-    <img alt="archive" class="block lg:hidden h-8 ml-4" src="/images/side-menu-archive.png">
+    <img alt="archive" class="block lg:hidden h-8 ml-4" src="/{{ .Language.Lang }}/images/side-menu-archive.png">
     {{ end }}   
   </a>
   <a href="/{{ .Language.Lang }}/news">
-    <img alt="news" class="hidden lg:block h-8" src="/images/side-menu-news-w-full.png">
+    <img alt="news" class="hidden lg:block h-8" src="/{{ .Language.Lang }}/images/side-menu-news-w-full.png">
     {{ if .IsHome }}
-    <img alt="news" class="block lg:hidden w-full" src="/images/category-news.png">
+    <img alt="news" class="block lg:hidden w-full" src="/{{ .Language.Lang }}/images/category-news.png">
     {{ else }}
-    <img alt="news" class="block lg:hidden h-8 ml-4" src="/images/side-menu-news.png">
+    <img alt="news" class="block lg:hidden h-8 ml-4" src="/{{ .Language.Lang }}/images/side-menu-news.png">
     {{ end }}       
   </a>
   </div>

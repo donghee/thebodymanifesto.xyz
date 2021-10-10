@@ -3,6 +3,7 @@ summaryLength = "10"
 
 defaultContentLanguage = 'ko'
 hasCJKLanguage = true
+staticDir = 'static'
 
 [languages]
   [languages.ko]
@@ -14,6 +15,7 @@ hasCJKLanguage = true
   baseURL = 'http://thebodymanifesto.xyz/en'
   languageName = "English"
   weight = 1
+  staticDir2 = 'static_en'
 
 [markup]
   [markup.goldmark]
