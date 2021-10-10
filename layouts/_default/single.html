@@ -10,10 +10,10 @@
       </div>
   </div>
   <!-- menu -->
-  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-4">
+  <div class="flex flex-col lg:flex w-full lg:w-1/6 lg:place-items-end lg:mx-8">
     <div class="lg:mt-10">
         <a href="/{{ .Language.Lang }}">
-          <img class="my-2 hidden lg:block" src="/images/title-second.png">
+          <img class="my-2 hidden lg:block" src="/{{ .Language.Lang }}/images/title-second.png">
           <img class="mx-6 mt-4 block lg:hidden" src="/images/mobile-title.png">
         </a>
     </div> 
@@ -36,8 +36,9 @@
     </a>
     {{ end }}
 </div>
+</div>
 
-    </div>
+   <!-- nav -->
     {{- partial "nav.html" . -}}
   </div>
 </div>
