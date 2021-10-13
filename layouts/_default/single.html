@@ -3,7 +3,7 @@
   <!-- main -->
   <div class="w-full lg:w-5/6 lg:mt-24">
       <div class="max-w-screen-md m-auto">
-        <img class="mt-10 lg:mt-20 lg:w-1/2" src="/images/{{ with .Title }}{{ . | safeHTML }}{{ end }}-top-title.png">
+        <img class="mt-10 lg:mt-20" src="/{{ .Language.Lang }}/images/{{ with .Title }}{{ . | safeHTML }}{{ end }}-top-title.png">
         <div class="m-4 mt-16 text-base leading-6">
           {{ .Content | safeHTML }}
         </div>

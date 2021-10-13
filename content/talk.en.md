@@ -54,7 +54,7 @@ The program talks about the attempts of women writers to weave personal history 
  - Moderator: HyeYoung Cho(Film Critic)
  - Panels:  Bora Lee-Kil, Kyuri Jeon(Participating artists)
  - Place: Online ZOOM
- - Date: Thursday, 21 October, 19:00-21:00
+ - Date: Friday, 29 October, 19:00-21:00
 
 <br/>
 
