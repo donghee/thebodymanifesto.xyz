@@ -6,4 +6,6 @@ draft: false
 
 <div class="h-5/6">
 
+{{% instagram %}}
+
 </div>
