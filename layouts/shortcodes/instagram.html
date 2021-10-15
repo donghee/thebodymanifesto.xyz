@@ -3,8 +3,8 @@
 {{ range $instagramFeed.data}}
 {{ $item := . }}
 <div>
-  <h2 class="text-xl mb-2">
-    {{ replace $item.timestamp "T" " " }}
+  <h2 class="text-xl my-2">
+    {{ index (split $item.timestamp "T") 0 }}
   </h2>
   <a href="{{ $item.permalink | absURL }}">
     {{ if eq ($item.media_type | string) "VIDEO"  }} <video src="{{ $item.media_url |absURL}}"/> {{ else }} <img src="{{ $item.media_url | absURL }}"/> {{ end }}
@@ -13,7 +13,7 @@
   <span>
     {{ $item.caption }}
   </span>
-  <br/>
-  <br/>
+  <br/><br/><br/>
+  <hr class="my-4">
 </div>
 {{ end }}
