@@ -6,11 +6,6 @@
   body {
     @apply font-spoqa;
   }
-
-  p {
-    @apply py-5;
-    @apply leading-10;
-  }
 }
 
 @tailwind utilities;
