@@ -27,7 +27,7 @@ draft: false
 
 <span id="1"></span>
 
-## <a href="#0"><a href="#0">강라겸</a> { .text-xl .mb-4 }
+## <a href="#0"><a href="#0">강라겸 ⤴️</a> { .text-xl .mb-4 }
 
 <div class="flex">
 <img class="p-2 w-1/2" src="/images/kang_01.png">
@@ -73,7 +73,7 @@ https://ragyeom.com  / kang.ragyeom@gmail.com
 
 <span id="2"></span>
 
-## <a href="#0">이길보라</a> { .text-xl .mb-4 }
+## <a href="#0">이길보라 ⤴️</a> { .text-xl .mb-4 }
 
 <div class="flex">
 <img class="p-2 w-1/2" src="/images/leekil_01.jpg"> 
@@ -110,7 +110,7 @@ http://www.boraleekil.com / nomadbora@gmail.com
 
 <span id="3"></span>
 
-## <a href="#0">전규리</a> { .text-xl .mb-4}
+## <a href="#0">전규리 ⤴️</a> { .text-xl .mb-4}
 
 <div class="flex">
 <img class="p-2 w-1/2" src="/images/jeon_01.png">
@@ -153,7 +153,7 @@ http://kyurijeon.com / qrijeon@gmail.com / @kyuri.jeon
 
 <span id="4"></span>
 
-## <a href="#0">성적권리와 재생산정의를 위한 센터 셰어 SHARE</a>  { .text-xl .mb-4}
+## <a href="#0">성적권리와 재생산정의를 위한 센터 셰어 SHARE ⤴️</a>  { .text-xl .mb-4}
 
 <div class="flex flex-row">
   <div class="w-7/12">
@@ -234,7 +234,7 @@ ydanji@gmail.com
 
 <span id="5"></span>
 
-## <a href="#0">에이피피 (거리 투쟁의 아카이브) A-P-P (The Archive of Public Protests)</a> { .text-xl .mb-4}
+## <a href="#0">에이피피 (거리 투쟁의 아카이브) A-P-P (The Archive of Public Protests) ⤴️</a> { .text-xl .mb-4}
 
 <div class="flex">
 <img class="p-2 w-1/2" src="/images/app_01.jpg">
@@ -278,7 +278,7 @@ https://archiwumprotestow.pl
 
 <span id="6"></span>
 
-## <a href="#0">올라 야시오노프스카 Ola Jasionowska</a> { .text-xl .mb-4 }
+## <a href="#0">올라 야시오노프스카 Ola Jasionowska ⤴️</a> { .text-xl .mb-4 }
 
 <div>
 <img class="p-2 w-full" src="/images/ola_01.jpg">
@@ -317,7 +317,7 @@ https://www.behance.net/olajasionowska / olajasionowska.posters@gmail.com
 
 <span id="7"></span>
 
-## <a href="#0">일렉트라 케이비 Elektra KB</a> { .text-xl .mb-4 }
+## <a href="#0">일렉트라 케이비 Elektra KB ⤴️</a> { .text-xl .mb-4 }
 
 <div class="flex">
 <img class="p-2" src="/images/kb_01.jpg">
@@ -375,7 +375,7 @@ http://elektrakb.com / kb.elektra@gmail.com / @elektrakb
 
 <span id="8"></span>
 
-## <a href="#0">키라 데인 & 케이틀린 레벨로  Kira Dane & Katelyn Rebelo</a> { .text-xl .mb-4 }
+## <a href="#0">키라 데인 & 케이틀린 레벨로  Kira Dane & Katelyn Rebelo ⤴️</a> { .text-xl .mb-4 }
 
 <div class="flex">
 <img class="p-2 w-1/2" src="/images/kira_01.png">
@@ -417,7 +417,7 @@ http://katelynrebelo.com
 
 <span id="9"></span>
 
-## <a href="#0">기획 김화용 Hwayong Kim</a> { .text-xl .mb-4 }
+## <a href="#0">기획 김화용 Hwayong Kim ⤴️</a> { .text-xl .mb-4 }
 
 circuswoman@gmail.com
 <br/>
